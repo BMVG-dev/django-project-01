@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'recipes',
 ]
 
 MIDDLEWARE = [
@@ -104,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'pt'  # Define o código de idioma padrão para português
+LANGUAGE_CODE = 'pt'  # Sets the default locale to Portuguese
 
-TIME_ZONE = 'Europe/Lisbon'  # Define o fuso horário para Portugal
+TIME_ZONE = 'Europe/Lisbon'  # Set the time zone for Portugal
 
 USE_I18N = True
 
